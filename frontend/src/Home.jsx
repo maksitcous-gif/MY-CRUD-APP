@@ -6,7 +6,7 @@ function Home() {
   const [data, setData] = useState([])
 
   useEffect(() => {
-    axios.get('http://localhost:3000/users')
+    axios.get('http://localhost:5000/users')
       .then(res => setData(res.data))
       .catch(err => console.log(err))
   }, [])
@@ -14,7 +14,7 @@ function Home() {
   const handleDelete = (id) => {
     const confirmDelete = window.confirm('Are you sure you want to delete this user?')
     if (confirmDelete) {
-      axios.delete(`http://localhost:3000/users/${id}`)
+      axios.delete(`http://localhost:5000/users/${id}`)
         .then(() => {
           
           setData(data.filter(user => user.id !== id))

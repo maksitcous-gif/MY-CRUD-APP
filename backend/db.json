@@ -2,45 +2,38 @@
   "users": [
     {
       "id": 1,
-      "name": "Jane Doe",
+      "name": "Jane james",
       "username": "janedoe",
       "email": "janedoe@example.com",
       "phone": "098-765-4321"
     },
     {
       "id": 2,
-      "name": "max Doe",
-      "username": "maxdoe",
-      "email": "max doe@example.com",
+      "name": "max peter",
+      "username": "max.P",
+      "email": "max@example.com",
       "phone": "123-456-7891"
     },
     {
       "id": 3,
-      "name": "lina Doe",
-      "username": "linadoe",
-      "email": "lina doe@example.com",
+      "name": "lina DANE",
+      "username": "linda",
+      "email": "linda@example.com",
       "phone": "123-451-7890"
     },
     {
       "id": 4,
-      "name": "Julie Doe",
-      "username": "juliedoe",
-      "email": "juliedoe@example.com",
+      "name": "Julie morten",
+      "username": "julied",
+      "email": "julie@example.com",
       "phone": "123-156-7890"
     },
     {
       "id": 5,
-      "name": "farax Doe",
-      "username": "faraxndoe",
-      "email": "faraxdoe@example.com",
+      "name": "farah najah",
+      "username": "farah",
+      "email": "farah@example.com",
       "phone": "121-456-7890"
-    },
-    {
-      "name": "andre",
-      "username": "andre",
-      "email": "and@email.com",
-      "phone": "123543234",
-      "id": 6
     }
   ]
 }

@@ -15,7 +15,7 @@ function Create() {
   const navigate = useNavigate()
   const handleSubmit = (event) => {
     event.preventDefault();
-     axios.post('http://localhost:3000/users', values)
+     axios.post('http://localhost:5000/users', values)
         .then(res =>
            {console.log(res)
             navigate('/')
